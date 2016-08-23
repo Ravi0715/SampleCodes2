@@ -1,0 +1,10 @@
+e100,james,asst.prof,cse,8000,16000,4000,8.7
+e101,jack,asst.prof,cse,8350,17000,4500,9.2
+e102,jane,assoc.prof,cse,15000,30000,8000,7.8
+e104,john,prof,cse,30000,60000,15000,8.8
+e105,peter,assoc.prof,cse,16500,33000,8600,6.9
+e106,david,assoc.prof,cse,18000,36000,9500,8.3
+e107,daniel,asst.prof,cse,9400,19000,5000,7.9
+e108,ramu,assoc.prof,cse,17000,34000,9000,6.8
+e109,rani,asst.prof,cse,10000,21500,4800,6.4
+e110,murthy,prof,cse,35000,71500,15000,9.3

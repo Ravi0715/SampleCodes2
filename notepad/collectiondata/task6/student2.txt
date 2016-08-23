@@ -1,0 +1,9 @@
+13KD1A0501
+Collection Framework is introduced in java because due to limitation of arrays.collection Framework,plays a vital
+role in the real world situations.as we know that,arrays can collect only homogenous data types.but where as the
+collection can collect hetergenous data types such as,Employee,Student,Customer etc. The Collection Framework
+hierarchy as follows.intially Iterable is an interface which is a super class to all collections.Collection is an interface
+which is a sub class of iterable where as collection also contains sub classes like List,Set,Queue etc.List is an
+interface which allows duplicates and the order is guranteed.implementation classes of List are ArrayList,Vector.
+ArrayList is the implementation class of List it also have same functionalities as List allows duplicates and order is
+guranteed.

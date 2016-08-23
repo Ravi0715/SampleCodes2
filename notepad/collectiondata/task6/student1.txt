@@ -1,0 +1,3 @@
+13KD1A0503
+Collection Framework is introduced in java because due to limitation of arrays.collection Framework,plays a vital
+role in the real world situations.as we know that,arrays can collect only homogenous data types.

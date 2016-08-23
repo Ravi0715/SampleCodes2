@@ -1,0 +1,11 @@
+13KD1A0503 ravi 72.43 M cse
+13KD1A0505 roshan 75.43 M cse
+13KD1A0403 raja 71 M ece
+13KD1A0303 peter 95.43 M mech
+13KD1A0203 john 45.43 M eee
+13KD1A0505 jane 82.43 F cse
+13KD1A0405 jennifer 80.43 F ece
+13KD1A0305 mira 76.43 F mech
+13KD1A0306 mika 96.43 F mech
+13KD1A0205 mithal 35.43 F eee
+13KD1A0206 mital 55.43 F eee

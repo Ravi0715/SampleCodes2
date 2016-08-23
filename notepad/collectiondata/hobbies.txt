@@ -1,0 +1,6 @@
+ravi,listening songs,surfing web,watching tv
+shashank,reading novels,watching tv
+peter,playing cricket,watching tv,meeting new persons
+john,watching tv,meeting new persons
+ravi,meeting new persons
+ravi,meeting new persons
