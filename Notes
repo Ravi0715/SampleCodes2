@@ -1,0 +1,25 @@
+1) Difference Between ClassNotFoundException and  NoClassDefFoundError In Java?
+
+A:-ClassNotFoundException is a run time exception which is thrown when an application tries to load a class at run time using
+
+Class.forName() or loadClass() or findSystemClass() methods and the class with specified name are not found in the classpath
+
+NoClassDefFoundError is an error which is thrown when Java Runtime System tries to load the definition of a class and 
+
+class definition is no longer available. The required class definition was present at compile time but it was missing at run time.
+
+2)What is Re-throwing an exception in java?
+
+A)Exceptions raised in the try block are handled in the catch block. If it is unable to handle that exception, it can re-throw 
+
+that exception using throw keyword. It is called re-throwing an exception.
+
+3)Why it is always recommended that clean up operations like closing the Database and Stream connection resources to keep inside a
+
+finally block?
+
+A:-Because finally block is always executed whether exceptions are raised in the try block or not and raised exceptions 
+
+are caught in the catch block or not. By keeping the clean up operations in finally block, you will ensure that those operations 
+
+will be always executed irrespective of whether exception is occurred or not.
