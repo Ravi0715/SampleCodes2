@@ -23,3 +23,32 @@ A:-Because finally block is always executed whether exceptions are raised in the
 are caught in the catch block or not. By keeping the clean up operations in finally block, you will ensure that those operations 
 
 will be always executed irrespective of whether exception is occurred or not.
+
+
+APACHE MAVEN
+
+Apache Maven is an advanced build tool to support the developer at the whole process of a software project.
+
+Typical tasks of a build tool are the compilation of source code, running the tests and packaging the result into JAR_ files.
+
+In additional to these typical build capabilities, Maven can also perform related activities, e.g., create web sites, upload build 
+
+results or generate reports. Maven allows the developer to automate the process of the creation of the initial folder structure 
+
+for the Java application, performing the compilation and testing and the packaging and deployment of the final product.
+
+It is implemented in Java which makes it platform-independent. Java is also the best work environment for Maven.
+
+
+groupId: Defines a unique base name of the organization or group that created the project. This is normally a reverse domain name.
+
+For the generation the groupId also defines the package of the main class.
+
+artifactId: Defines the unique name of the project. If you generate a new project via Maven this is also used as root folder for the project.
+
+packaging: Defines the packaging method. This could be e.g. a jar, war or ear file. 
+
+If the packaging type is pom, Maven does not create anything for this project, it is just meta-data.
+
+version: This defines the version of the project.
+
