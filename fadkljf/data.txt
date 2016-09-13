@@ -1,0 +1,74 @@
+1)
+import java.io.*;
+
+public class Car implements Serializable {
+        public int speeds;
+        public int wheels;
+
+        private void writeObject(ObjectOutputStream oos) 
+                        throws IOException {
+                oos.writeInt(speeds);
+                oos.writeInt(wheels);
+        }
+
+        private void readObject(ObjectInputStream ois) 
+                        throws IOException {
+                . . . . . . Place here . . . . . .
+        }
+}
+ois.defaultReadObject();this = ois.defaultReadObject();speeds = ois.readInt(); wheels = ois.readInt();wheels = ois.readInt(); speeds = ois.readInt();
+2)
+
+Which three will compile without exception? (Choose three)
+ A) private synchronized SomeClass a;
+ B) void book() { synchronized () {} }
+ C) public synchronized void book() {}
+ D) public synchronized(this) void book() {}
+ E) public void book() { synchronized(Cruiser.class) {} }
+ F) public void book() {synchronized(a){}}
+
+3)
+What should be called after the code below to suggest that the JVM expend effort toward recycling the memory used by the object a? (Select two)
+BigObject a = MyFactory.createBigObject();
+a.doStuff();
+a = null;
+ A) System.gc()
+ B) Runtime.gc()
+ C) System.freeMemory()
+ D) Runtime.getRuntime().freeMemory()
+ E) Runtime.getRuntime().gc()
+
+4)
+public class Cruiser {
+    private int a = 0;
+    
+    public void foo() {
+        Runnable r = new LittleCruiser();
+        new Thread(r).start();
+        new Thread(r).start();
+    }
+    
+    public static void main(String arg[]) {
+        Cruiser c = new Cruiser();
+        c.foo();
+    }
+    
+    public class LittleCruiser implements Runnable {
+        public void run() {
+            int current = 0;
+            for (int i = 0; i < 4; i++) {
+                current = a;
+                System.out.print(current + ", ");
+                a = current + 2;
+            }
+        }
+    }
+}
+
+5)
+Which three statements concerning the use of the java.io.Serializable interface are true? (Choose three)
+ A) object from classes tha use aggregation cannot be serialized.
+ B) An object serialized on one JVM can be deserialized on a different JVM.
+ C) The values in fields with the volatile modifier will not survive serialization and deserialization.
+ D) The values in field with the transient modifier will not survive serialization and deserialization.
+ E) It is legal to serialize an object of a type that has a supertype that does not implement java.io.Serializable

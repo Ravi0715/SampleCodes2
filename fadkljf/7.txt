@@ -1,0 +1,5 @@
+Input string sentence:-
+
+Two ArrayList :-
+al-odd length words
+al1-even length words

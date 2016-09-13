@@ -1,0 +1,4 @@
+input:-String sentence
+pick out all pair of anagrams  from tat
+
+the most cheating job on the earth is teaching with no heart.

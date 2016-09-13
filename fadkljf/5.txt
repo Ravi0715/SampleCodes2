@@ -1,0 +1,3 @@
+input:-integer array
+
+print all odd prime numbers

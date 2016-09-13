@@ -1,0 +1,2 @@
+input:-String Sentence and take a input character
+print the position of charcter in the word and sentence.

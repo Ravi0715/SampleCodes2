@@ -1,0 +1,4 @@
+TAsk-1
+
+	write a program to take array of numbers and print even and odd numbers into 2 
+seperate lists and print even numbers and followed by odd numbers
